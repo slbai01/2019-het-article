@@ -1,0 +1,27 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names (displayed in mouseover popups)
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#define a name for an internal node
+#9031|9606,Metazoa
+
+#change the label for leaf node 9606
+rename1	jgi_Rutfi1|562503_Rutstroemia_firma_CBS_115.86_Helotiales_Leotiomycetesrename2	onekp_CMEQ_scaffold_2011402_Orthotrichum_lyellii_Orthotrichales_Bryopsidarename3	onekp:OFTV_scaffold_2120581_Barbilophozia_barbatarename4	uniprot_A0A2K1JKB8_PHYPA_Physcomitrella_patens_Funariales_Bryopsidarename5	jgi_Eryha1|358134_Erythrobasidium_hasegawianum_ATCC_9536_Erythrobasidiales_Basidiomycotarename6	uniprot_H0EJL3_GLAL7_Glarea_lozoyensis_Helotiales_Leotiomycetesrename7	jgi_Bissp1|694240_Bisporella_sp._PMI_857_Helotiales_Leotiomycetesrename8	nr_RDW61407.1_Coleophoma_crateriformis_Helotiales_Leotiomycetesrename9	uniprot_Q5GUA3_XANOR_Xanthomonas_oryzae_Xanthomonadales_Proteobacteriarename10	jgi_Leptod1|529408_Leptodontium_sp._PMI_412_Helotiales_Leotiomycetesrename11	uniprot_W9CRC4_9HELO_Sclerotinia_borealis_Helotiales_Leotiomycetesrename12	uniprot_A0A0F5JSV1_9BURK_Robbsia_andropogonis_Burkholderiales_Proteobacteriarename13	jgi_Thiar1|773166_Thielavia_arenaria_CBS_508.74_Sordariales_Sordariomycetesrename14	jgi_Eryha1|413884_Erythrobasidium_hasegawianum_ATCC_9536_Erythrobasidiales_Basidiomycotarename15	uniprot_A0A2V1BI92_9HELO_Cadophora_sp._DSE1049_Helotiales_Leotiomycetesrename16	onekp_LXRN_scaffold_2047879_Prymnesium_parvum_Prymnesiales_Haptophyceaerename17	uniprot_A0A1L7XH74_9HELO_Phialocephala_subalpina_Helotiales_Leotiomycetesrename18	uniprot_Q8Y2T7_RALSO_Ralstonia_solanacearum_Burkholderiales_Proteobacteriarename19	jgi_Podcur1|328253_Podospora_curvicolla_TEP21a_Sordariales_Sordariomycetesrename20	jgi_Hymvar1|396862_Hymenoscyphus_varicosporoides_PMI_453_Helotiales_Leotiomycetesrename21	jgi_Lashi1|548880_Lasiosphaeris_hispida_CBS_955.72_Sordariales_Sordariomycetesrename22	onekp_VMXJ_scaffold_2130827_Leucobryum_albidum_Dicranales_Bryopsidarename23	jgi_Denna1|585781_Dendryphion_nanum_MPI-CAGE-CH-0243_Pleosporales_Dothideomycetesrename24	uniprot_A1TT88_ACIAC_Acidovorax_citrulli_Burkholderiales_Proteobacteriarename25	jgi_Bulin1|759218_Bulgaria_inquinans_CBS118.31_Leotiales_Leotiomycetesrename26	jgi_Stobe1|80683_Stomiopeltis_betulae_CBS114420_Microthyriales_Dothideomycetesrename27	uniprot_Q888Y7_PSESM_Pseudomonas_syringae_pv._tomato_DC3000_Pseudomonadales_Proteobacteriarename28	onekp_ZQRI_scaffold_2014322_Timmia_austriaca_Timmiales_Bryopsidarename29	uniprot_A0A084RW28_STACH_Stachybotrys_chartarum_Hypocreales_Hypocrealesrename30	nr_XP_002289898.1_Thalassiosira_pseudonana_CCMP1335_Thalassiosirales_Bacillariophytarename31	jgi_Cercau1|393037_Cercophora_caudata_CBS_606.72_Sordariales_Sordariomycetesrename32	jgi_Bissp1|609347_Bisporella_sp._PMI_857_Helotiales_Leotiomycetes

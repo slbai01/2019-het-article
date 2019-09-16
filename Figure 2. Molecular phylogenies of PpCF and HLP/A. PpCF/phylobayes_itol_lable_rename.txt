@@ -1,0 +1,73 @@
+LABELS
+#use this template to change the leaf labels, or define/change the internal node names (displayed in mouseover popups)
+
+#lines starting with a hash are comments and ignored during parsing
+
+#=================================================================#
+#                    MANDATORY SETTINGS                           #
+#=================================================================#
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throughout this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#=================================================================#
+#       Actual data follows after the "DATA" keyword              #
+#=================================================================#
+DATA
+#NODE_ID,LABEL
+
+#Examples
+#define a name for an internal node
+#9031|9606,Metazoa
+
+#change the label for leaf node 9606
+rename1	Basidiomycota_365.7_Agaricomycetes_Fibroporia_radiculosa_J4HUF5_9APHY
+rename2	Ascomycota_31.3_Dothideomycetes_Dothistroma_septosporum__strain_NZE10_
+rename3	Basidiomycota_305.9_Agaricomycetes_Suillus_luteus_UH-Slu-Lm8-n1_A0A0D0BJ34_9HOMO
+rename4	Basidiomycota_260_Agaricomycetes_Trametes_pubescens_A0A1M2W0V2_TRAPU
+rename5	Ascomycota_29.8_Sordariomycetes_Fusarium_poae_A0A1B8AZT8_FUSPO
+rename6	Bryophyta_Diphysciidae_347_Diphyscium_foliosum_AWOI_scaffold_2008220
+rename7	Basidiomycota_45.2_Agaricomycetes_Armillaria_ostoyae_A0A284S1G2_9AGAR
+rename8	Tracheophyta_Equisetales_110_Equisetum_hymale_JVSZ_scaffold_2015024
+rename9	Tracheophyta_Gleicheniales_137_Dipteris_conjugata_MEKP_scaffold_2015527
+rename10	Basidiomycota_292.6_Agaricomycetes_Pleurotus_ostreatus_PC15_A0A067NZY5_PLEOS
+rename11	Ascomycota_41_Dothideomycetes_Acidomyces_richmondensis_BFW_A0A150UZN5_9PEZI
+rename12	Basidiomycota_403.3_Agaricomycetes_Trametes_pubescens_A0A1M2W2X0_TRAPU
+rename13	Tracheophyta_Lycopodiaceae_100_Huperzia_selago_GTUO_scaffold_2011971
+rename14	Basidiomycota_317.6_Agaricomycetes_Piloderma_croceum_F_1598_A0A0C3BZ74_9HOMO
+rename15	Basidiomycota_292.1_Agaricomycetes_Ganoderma_sinense_ZZ0214-1_A0A2G8RY70_9APHY
+rename16	Basidiomycota_402.9_Agaricomycetes_Ganoderma_sinense_ZZ0214-1_A0A2G8RQB6_9APHY
+rename17	EFJ16718.1
+rename18	Ascomycota_30.7_Eurotiomycetes_Emmonsia_parva_UAMH_139_A0A0H1BTC2_9EURO
+rename19	Basidiomycota_398.6_Agaricomycetes_Serpula_lacrymans_var._lacrymans__strain_S7.3__F8QAG0_SERL3
+rename20	JGI_Basidiomycota_117__Agaricomycetes_38442_Epithele_typhae_CBS_203.58_v1.0
+rename21	Pp3c13_690V3.5
+rename22	Basidiomycota_35_Agaricomycetes_Jaapia_argillacea_MUCL_33604_A0A067Q3A1_9HOMO
+rename23	Basidiomycota_301_Agaricomycetes_Galerina_marginata__strain_CBS_339.88__A0A067SVM1_GALM3
+rename24	Basidiomycota_380.7_Agaricomycetes_Grifola_frondosa_A0A1C7MED9_GRIFR
+rename25	Ascomycota_34.7_Eurotiomycetes_Paracoccidioides_brasiliensis__strain_Pb18__C1G012_PARBD
+rename26	Pp3c13_300V3.2
+rename27	Pp3c13_120V3.1
+rename28	JGI_Mucoromycota_129__Mortierellomycetes_6321_Mortierella_verticillata_NRRL_6337
+rename29	Basidiomycota_407.8_Agaricomycetes_Rhizopogon_vinicolor_AM-OR11-026_A0A1B7MMD5_9HOMO
+rename30	Bryophyta_Andreaeales_379_Andreaea_rupestris_WOGB_scaffold_2013735
+rename31	Tracheophyta_Isoetaceae_118_Isoetes_sp._PYHZ_scaffold_2073754
+rename32	Basidiomycota_330.4_Agaricomycetes_Dichomitus_squalens__strain_LYAD-421__R7SUE4_DICSQ
+rename33	Bryophyta_Tetraphidales_231_Tetraphis_pellucida_HVBQ_scaffold_2003347
+rename34	Tracheophyta_Osmundales_113_Osmunda_sp._UOMY_scaffold_2006846
+rename35	Bryophyta_Dicranidae_324_Leucobryum_albidum_VMXJ_scaffold_2128581
+rename36	Basidiomycota_31_Agaricomycetes_Phanerochaete_carnosa__strain_HHB-10118-sp__K5V1M9_PHACS
+rename37	Bryophyta_Timmiidae_333_Timmia_austriaca_ZQRI_scaffold_2000333
+rename38	Basidiomycota_418.9_Agaricomycetes_Pisolithus_microcarpus_441_A0A0C9ZZD8_9HOMO
+rename39	Basidiomycota_362.2_Agaricomycetes_Paxillus_rubicundulus_Ve08.2h10_A0A0D0DS35_9HOMO
+rename40	Basidiomycota_425_Agaricomycetes_Pisolithus_tinctorius_Marx_270_A0A0C3NHC4_PISTI
+rename41	Bryophyta_Bryidae_375_Schwetschkeopsis_fabronia_IGUH_scaffold_2007215
+rename42	Basidiomycota_404.6_Agaricomycetes_Paxillus_involutus_ATCC_200175_A0A0C9TI18_PAXIN
+rename43	Basidiomycota_34.1_Agaricomycetes_Phlebiopsis_gigantea_11061_1_CR5-6_A0A0C3S1J4_PHLGI
+rename44	Ascomycota_26_Dothideomycetes_Coniosporium_apollinis__strain_CBS_100218__R7Z2B5_CONA1
+rename45	Basidiomycota_31.8_Agaricomycetes_Neolentinus_lepideus_HHB14362_ss-1_A0A165QWK7_9HOMO
+rename46	Ascomycota_30.2_Eurotiomycetes_Aspergillus_tubingensis_CBS_134.48_A0A1L9MY25_ASPTU
+rename47	EFJ16832.1
