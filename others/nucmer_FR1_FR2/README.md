@@ -19,8 +19,8 @@ egrep 'Chr24|Chr27' /share/home/baishenglong/database/Physcomitrella_patens/JGI_
 
 - liwanxian_FR1.png
 
-![liwanxian_FR1](liwanxian_FR1.png)
+![liwanxian_FR1](./liwanxian_FR1.png)
 
 - liwanxian_FR2.png
 
-![liwanxian_FR2](liwanxian_FR2.png)
+![liwanxian_FR2](./liwanxian_FR2.png)
